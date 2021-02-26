@@ -32,7 +32,6 @@ export const DayWeather = ({}) => {
         }
       );
   }, []);
-  console.log(data);
   if (error) {
     return (
       <div

@@ -39,7 +39,6 @@ export const Container = () => {
       );
   }, []);
 
-  console.log(data);
   if (error) {
     return (
       <div

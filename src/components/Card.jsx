@@ -8,7 +8,7 @@ export const Card = ({ day, temp, icon, hourly }) => {
   const hours = moment(hourly * 1000).format("ddd D MMM H:mm");
 
   return (
-    <Link to={`/${day}`}>
+    <Link to={`/${day ? day : ''}`}>
       <div
         style={{
           border: "1px solid #D0DFF0",
