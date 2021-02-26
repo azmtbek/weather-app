@@ -22,7 +22,9 @@
   "homepage": "https://github.com/azmtbek/weather-app#readme",
   "dependencies": {
     "css-loader": "^5.0.2",
+    "dayjs": "^1.10.4",
     "file-loader": "^6.2.0",
+    "moment": "^2.29.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
