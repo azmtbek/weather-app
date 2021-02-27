@@ -71,53 +71,51 @@ export const Container = () => {
     );
   } else {
     return (
-      <Router>
-        <div>
-          <div
-            style={{
-              border: "1px solid #e0eFF0",
-              display: "flex",
-              padding: 20,
-              justifyContent: "center",
-              alignItems: "center",
-              gap: 20,
-            }}
-          >
-            <Link to="/">
-              <h1>Weather forecast</h1>
-            </Link>
-          </div>
-          <Switch>
-            <Route path={`/:day`}>
-              <DayWeather />
-            </Route>
-            <Route path="/">
-              <div
-                style={{
-                  border: "1px solid #e0eFF0",
-                  display: "flex",
-
-                  padding: 20,
-                  justifyContnent: "center",
-                  alignItems: "center",
-                  gap: 20,
-                }}
-              >
-                {data.slice(0, 5).map((element, index) => {
-                  return (
-                    <Card
-                      key={index}
-                      day={element.dt}
-                      temp={element.temp?.day}
-                      icon={element.weather[0]?.icon}
-                    />
-                  );
-                })}
-              </div>
-            </Route>
-          </Switch>
+      <div>
+        <div
+          style={{
+            border: "1px solid #e0eFF0",
+            display: "flex",
+            padding: 20,
+            justifyContent: "center",
+            alignItems: "center",
+            gap: 20,
+          }}
+        >
+          <Link to="/">
+            <h1 className="header">Weather forecast</h1>
+          </Link>
         </div>
-      </Router>
+        <Switch>
+          <Route path={`/:day`}>
+            <DayWeather />
+          </Route>
+          <Route path="/">
+            <div
+              style={{
+                border: "1px solid #e0eFF0",
+                display: "flex",
+
+                padding: 20,
+                justifyContnent: "center",
+                alignItems: "center",
+                gap: 20,
+              }}
+            >
+              {data.slice(0, 5).map((element, index) => {
+                return (
+                  <Card
+                    key={index}
+                    day={element.dt}
+                    temp={element.temp?.day}
+                    icon={element.weather[0]?.icon}
+                  />
+                );
+              })}
+            </div>
+          </Route>
+        </Switch>
+      </div>
     );
   }
 };

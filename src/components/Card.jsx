@@ -15,7 +15,6 @@ export const Card = ({ day, temp, icon, hourly }) => {
           display: "flex",
           flexDirection: "column",
           padding: 20,
-          //   width: 400,
           justifyContnent: "center",
           alignItems: "center",
           gap: 5,
@@ -31,7 +30,7 @@ export const Card = ({ day, temp, icon, hourly }) => {
             alt={`${icon}`}
           />
         </div>
-        <div>{temp}</div>
+        <div  data-testid='temp'>{temp}</div>
       </div>
     </Link>
   );

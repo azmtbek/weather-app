@@ -11,3 +11,12 @@
     chrome http://localhost:3000 
 
 ```
+
+
+## how to test
+
+```bash
+
+    npm run test
+
+```

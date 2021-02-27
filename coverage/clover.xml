@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1614440427796" clover="3.2.0">
+  <project timestamp="1614440427796" name="All files">
+    <metrics statements="55" coveredstatements="37" conditionals="14" coveredconditionals="7" methods="13" coveredmethods="3" elements="82" coveredelements="47" complexity="0" loc="55" ncloc="55" packages="1" files="3" classes="3"/>
+    <file name="Card.jsx" path="/home/aza/projects/exemples/weather-app/src/components/Card.jsx">
+      <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+    </file>
+    <file name="Container.jsx" path="/home/aza/projects/exemples/weather-app/src/components/Container.jsx">
+      <metrics statements="25" coveredstatements="16" conditionals="4" coveredconditionals="2" methods="6" coveredmethods="1"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="42" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="43" count="0" type="stmt"/>
+      <line num="58" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="59" count="1" type="stmt"/>
+      <line num="73" count="0" type="stmt"/>
+      <line num="106" count="0" type="stmt"/>
+    </file>
+    <file name="DayWeather.jsx" path="/home/aza/projects/exemples/weather-app/src/components/DayWeather.jsx">
+      <metrics statements="26" coveredstatements="17" conditionals="4" coveredconditionals="2" methods="6" coveredmethods="1"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="35" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="51" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="52" count="1" type="stmt"/>
+      <line num="66" count="0" type="stmt"/>
+      <line num="79" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>

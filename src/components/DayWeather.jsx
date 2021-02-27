@@ -12,7 +12,7 @@ const URL =
   WEATHER_URL +
   `lat=${lat}&lon=${lon}&exclude=${part}&appid=${api}&units=${units}`;
 
-export const DayWeather = ({}) => {
+export const DayWeather = () => {
   let { day } = useParams();
   const [isLoaded, setIsLoaded] = useState(false);
   const [data, setData] = useState([]);
