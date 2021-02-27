@@ -76,6 +76,7 @@ export const Container = () => {
           style={{
             border: "1px solid #e0eFF0",
             display: "flex",
+            flexWrap: "wrap",
             padding: 20,
             justifyContent: "center",
             alignItems: "center",
@@ -83,7 +84,7 @@ export const Container = () => {
           }}
         >
           <Link to="/">
-            <h1 className="header">Weather forecast</h1>
+            <h1 className="header">Weather forecast for Tashkent</h1>
           </Link>
         </div>
         <Switch>
@@ -96,6 +97,7 @@ export const Container = () => {
                 border: "1px solid #e0eFF0",
                 display: "flex",
 
+                flexWrap: "wrap",
                 padding: 20,
                 justifyContnent: "center",
                 alignItems: "center",

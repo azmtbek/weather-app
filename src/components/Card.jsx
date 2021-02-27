@@ -12,6 +12,8 @@ export const Card = ({ day, temp, icon, hourly }) => {
       <div
         style={{
           border: "1px solid #D0DFF0",
+          backgroundColor:"#F0F8FF",
+          borderRadius:"7px",
           display: "flex",
           flexDirection: "column",
           padding: 20,
